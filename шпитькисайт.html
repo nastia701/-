@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang= "uk">
+<head>
+<link rel= "stylesheet" href= "сайт.css" type= " text/css"/> 
+<head/>
+<hr>
+<body>
+<meta charset="utf-8">
+   
+ 
+  <body>
+   
+    <ul id="navbar">
+      <li><a href="#">Головна </a></li>
+      <li><a href="#">Контакти</a></li>
+      <li><a href="#">Про ліцей</a></li>
+    </ul>
+<h1 style= " position: relative; text-align: center" ><img style="position: relative; width: 100px; height: 100px;" align="top"; src ="fon/opi.jpg"> Шпитьківський академічний ліцей "Скіф" <h1/>
+<div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+    background-color: #7b572d;
+    color: white;
+    padding: 20px;
+	width: 100px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #7b572d;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7b572d ;
+    min-width: 1000px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Меню</button>
+  <div id="myDropdown" class="dropdown-content">
+    <li><a href = "#" >про ліцей  <a/>
+<li><a href = "#" > очне та дистанційне навчання  <a/>
+<li><a href = "#" > методичні об'єднання <a/>
+<li><a href = "#" > структура управління  <a/>
+<li><a href = "#" > протидія булінгу <a/>
+<li><a href = "#" > підвищення кваліфікації вчителів <a/>
+<li><a href = "#" > конкурси та олімпіади <a/>
+<li><a href = "#" > розклад уроків <a/>
+<li><a href = "#" > для учнів  <a/>
+<li><a href = "#" > для батьків <a/>
+<li><a href = "#" > ЗНО/НМТ рейтинг здачі  <a/>
+<li><a href = "#" > новини та оголошення <a/>
+<li><a href = "#" > відгуки <a/>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<div/>
+<body/>
+<html/> 
+

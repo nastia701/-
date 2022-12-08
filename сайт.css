@@ -1,0 +1,15 @@
+h1 {
+color: #ffffff;
+font-size: 20px;
+font-family: Avantgarde;
+}
+body{
+	font-style: oblique;
+	background: url(fon/fone.png);
+}
+#navbar {
+       margin-right: 1em;
+        padding-left: 5%;;
+        list-style-type: none;
+      }
+#navbar li { display: inline; }
